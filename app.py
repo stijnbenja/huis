@@ -24,5 +24,5 @@ for item in allebei:
         with cols[1]:
             st.subheader(item['title'])
             st.write(item['location'])
-            st.caption(item['prijs'])
+            st.caption(f"{item['prijs']} euro")
             st.link_button(item['site'],url=item['url'])
